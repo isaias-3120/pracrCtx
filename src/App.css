@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.LibrosLista{
+  width:40%;
+  margin-top: 50px;
+  margin-left: 50px;
+  table-layout: auto;
+}
+
+.LibrosWish{
+  width:40%;
+  margin-top: 50px;
+  margin-left: 50px;
+  table-layout: auto;
+}
+
+.Containers{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.App-header {
+  background-color: #dfd5d5;
+  min-height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(228, 121, 17);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
