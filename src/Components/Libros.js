@@ -13,7 +13,7 @@ const Libros = () =>{
           <Table striped bordered className="Tabla">
             <thead>
               <tr>
-                <th>Codigo</th>
+                <th>Coudigo</th>
                 <th>Titulo</th>
                 <th>Idioma</th>
                 <th></th>
